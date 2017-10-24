@@ -15,6 +15,7 @@
         android:id="@+id/lightsImageView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_weight="2"
         android:contentDescription="Northern Lights"
         android:background="@drawable/lights1"/>
 
@@ -22,6 +23,7 @@
         android:id="@+id/frameAnimButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_weight="1"
         android:text="@string/frame_anim_button_text"
         android:onClick="toggleFrameAnim"/>
 
@@ -29,6 +31,7 @@
         android:id="@+id/rotateAnimButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_weight="1"
         android:onClick="toggleRotateAnim"
         android:text="@string/rotate_anim_button_text"/>
 
@@ -36,6 +39,7 @@
         android:id="@+id/shakeAnimButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_weight="1"
         android:onClick="toggleShakeAnim"
         android:text="@string/shake_anim_button_text"/>
 
@@ -43,6 +47,8 @@
         android:id="@+id/customAnimButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="toggleCustomAnim"
         android:text="@string/custom_anim_button_text"/>
 
 </LinearLayout>
